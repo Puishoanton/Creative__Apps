@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__content">
+            <h1 class="header__title">This is title for testing file_</h1>
+            <div class="header__decor-items">
+              <div class="header__decor-item"></div>
+              <div class="header__decor-item"></div>
+              <div class="header__decor-item"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__container">
+          <div class="main__body">
+            <h1 class="main__title">Main title_</h1>
+            <section class="main__section">
+              <div class="line"></div>
+              <article class="main__article-1 article">
+                <h2>Word Count</h2>
+                <section class="article__wrapper word-count">
+                  <div class="word-count__textarea-typing">
+                    <textarea
+                      class="word-count__textarea"
+                      id="content"
+                      maxlength="100"
+                    ></textarea>
+                    <div class="word-count__typing" id="result"></div>
+                  </div>
+                  <div class="word-count__text-counter" id="word-count">
+                    <p>The number of entered characters:</p>
+                    <span>0</span>.
+                  </div>
+                </section>
+              </article>
+              <div class="line"></div>
+              <article class="main__article-2 article">
+                <h2>Toggle Tabs</h2>
+                <section class="article__wrapper toggle-tabs">
+                  <ul class="toggle-tabs__btns-li">
+                    <li class="toggle-tabs__li button selected">
+                      Anchor's Away!
+                    </li>
+                    <li class="toggle-tabs__li button">Man O' War</li>
+                    <li class="toggle-tabs__li button">Corsair</li>
+                  </ul>
+                  <div class="toggle-tabs__stories">
+                    <article class="toggle-tabs__story active-story">
+                      <h3>Anchor's Away!</h3>
+
+                      <p>
+                        Fore furl holystone mutiny lugsail hempen halter
+                        Brethren of the Coast Corsair. Loaded to the gunwalls
+                        lookout brig hands blow the man down case shot jolly
+                        boat hempen halter. Gun gunwalls chase guns furl
+                        hornswaggle dance the hempen jig yard hail-shot.
+                        Pressgang quarterdeck prow lugger spanker fluke
+                        broadside reef.
+                      </p>
+
+                      <p>
+                        Hempen halter me gangplank snow smartly boom fire ship
+                        aft. Rope's end draught interloper schooner ho wench
+                        jury mast lateen sail. Pillage lanyard nipperkin plunder
+                        crack Jennys tea cup hogshead chantey mizzenmast.
+                        Spanker blow the man down Buccaneer Sail ho rum tender
+                        warp brigantine.
+                      </p>
+                    </article>
+
+                    <article class="toggle-tabs__story">
+                      <h3>Man O' War</h3>
+
+                      <p>
+                        Man-of-war booty brigantine fire ship tack no prey, no
+                        pay wherry lee. Reef heave to line chandler fore cable
+                        smartly me. Avast list spanker Arr fathom American Main
+                        lookout grapple. Jolly boat black spot chandler list
+                        chantey pinnace brig Yellow Jack.
+                      </p>
+
+                      <p>
+                        Chantey Davy Jones' Locker snow jib careen galleon
+                        Admiral of the Black lass. Rum booty heave to grog
+                        hempen halter gangway long clothes wherry. Mutiny chase
+                        Sea Legs grapple crow's nest wherry jury mast lateen
+                        sail. Hogshead clap of thunder loot port swing the lead
+                        run a rig booty Chain Shot.
+                      </p>
+                    </article>
+
+                    <article class="toggle-tabs__story">
+                      <h3>Corsair</h3>
+
+                      <p>
+                        Line Corsair haul wind pink provost hardtack keelhaul
+                        hang the jib. Splice the main brace matey hornswaggle
+                        strike colors run a shot across the bow cackle fruit
+                        hang the jib jack. Sheet bounty wherry nipperkin belay
+                        flogging Chain Shot main sheet. Lad Spanish Main barque
+                        port smartly Chain Shot deadlights Jack Ketch.
+                      </p>
+
+                      <p>
+                        Flogging heave down sloop me squiffy barkadeer loot
+                        chantey. Ye spike port lugsail belaying pin nipperkin
+                        loot yardarm. Prow gangplank six pounders chase guns
+                        pressgang chandler Shiver me timbers piracy. Hearties
+                        Shiver me timbers sloop driver fire in the hole gaff
+                        prow gally.
+                      </p>
+                    </article>
+                  </div>
+                </section>
+              </article>
+              <div class="line"></div>
+              <article class="main__article-3 article">
+                <h2>Todo List</h2>
+                <section class="article__wrapper todo-list">
+                  <div class="todo-list__input-btn">
+                    <input class="todo-list__input" type="text" />
+                    <div class="todo-list__btn button"><p>add todos</p></div>
+                  </div>
+                  <div class="todo-list__random">
+                    <p class="todo-list__btn-p button" style="opacity: 0.4">
+                      click to add random todos
+                    </p>
+                  </div>
+                  <div class="todo-list__items"></div>
+                </section>
+              </article>
+              <div class="line"></div>
+              <article class="main__article-4 article">
+                <h2>Some Document</h2>
+                <section class="article__wrapper some-document">
+                  <ul class="some-document__btns-list">
+                    Some Document
+                    <li class="some-document__li-btns button bookBtns">
+                      Anchor's Away!
+                    </li>
+                    <li class="some-document__li-btns button">Man O' War</li>
+                    <li class="some-document__li-btns button">Corsair</li>
+                    <li class="some-document__li-btns button">
+                      Scallywags be among us
+                    </li>
+                    <li class="some-document__li-btns button">
+                      The Jolly Roger
+                    </li>
+                    <li class="some-document__li-btns button">The Sloop</li>
+                    <li class="some-document__li-btns button">Lost Treasure</li>
+                    <li class="some-document__li-btns button">Sea Legs</li>
+                    <li class="some-document__li-btns button">
+                      Barnacles and Crustaceans
+                    </li>
+                  </ul>
+                  <section class="some-document__document-items">
+                    <article class="some-document__document-item active-story">
+                      <h3>Anchor's Away!</h3>
+                      <p>
+                        Fore furl holystone mutiny lugsail hempen halter
+                        Brethren of the Coast Corsair. Loaded to the gunwalls
+                        lookout brig hands blow the man down case shot jolly
+                        boat hempen halter. Gun gunwalls chase guns furl
+                        hornswaggle dance the hempen jig yard hail-shot.
+                        Pressgang quarterdeck prow lugger spanker fluke
+                        broadside reef.
+                      </p>
+                      <p>
+                        Hempen halter me gangplank snow smartly boom fire ship
+                        aft. Rope's end draught interloper schooner ho wench
+                        jury mast lateen sail. Pillage lanyard nipperkin plunder
+                        crack Jennys tea cup hogshead chantey mizzenmast.
+                        Spanker blow the man down Buccaneer Sail ho rum tender
+                        warp brigantine.
+                      </p>
+                    </article>
+                    <article class="some-document__document-item">
+                      <h3>Man O' War</h3>
+
+                      <p>
+                        Man-of-war booty brigantine fire ship tack no prey, no
+                        pay wherry lee. Reef heave to line chandler fore cable
+                        smartly me. Avast list spanker Arr fathom American Main
+                        lookout grapple. Jolly boat black spot chandler list
+                        chantey pinnace brig Yellow Jack.
+                      </p>
+
+                      <p>
+                        Chantey Davy Jones' Locker snow jib careen galleon
+                        Admiral of the Black lass. Rum booty heave to grog
+                        hempen halter gangway long clothes wherry. Mutiny chase
+                        Sea Legs grapple crow's nest wherry jury mast lateen
+                        sail. Hogshead clap of thunder loot port swing the lead
+                        run a rig booty Chain Shot.
+                      </p>
+                    </article>
+                    <article class="some-document__document-item">
+                      <h3>Corsair</h3>
+
+                      <p>
+                        Line Corsair haul wind pink provost hardtack keelhaul
+                        hang the jib. Splice the main brace matey hornswaggle
+                        strike colors run a shot across the bow cackle fruit
+                        hang the jib jack. Sheet bounty wherry nipperkin belay
+                        flogging Chain Shot main sheet. Lad Spanish Main barque
+                        port smartly Chain Shot deadlights Jack Ketch.
+                      </p>
+
+                      <p>
+                        Flogging heave down sloop me squiffy barkadeer loot
+                        chantey. Ye spike port lugsail belaying pin nipperkin
+                        loot yardarm. Prow gangplank six pounders chase guns
+                        pressgang chandler Shiver me timbers piracy. Hearties
+                        Shiver me timbers sloop driver fire in the hole gaff
+                        prow gally.
+                      </p>
+                    </article>
+                    <article class="some-document__document-item">
+                      <h3>Scallywags be among us</h3>
+
+                      <p>
+                        Fore furl holystone mutiny lugsail hempen halter
+                        Brethren of the Coast Corsair. Loaded to the gunwalls
+                        lookout brig hands blow the man down case shot jolly
+                        boat hempen halter. Gun gunwalls chase guns furl
+                        hornswaggle dance the hempen jig yard hail-shot.
+                        Pressgang quarterdeck prow lugger spanker fluke
+                        broadside reef.
+                      </p>
+
+                      <p>
+                        Hempen halter me gangplank snow smartly boom fire ship
+                        aft. Rope's end draught interloper schooner ho wench
+                        jury mast lateen sail. Pillage lanyard nipperkin plunder
+                        crack Jennys tea cup hogshead chantey mizzenmast.
+                        Spanker blow the man down Buccaneer Sail ho rum tender
+                        warp brigantine.
+                      </p>
+                    </article>
+                    <article class="some-document__document-item">
+                      <h3>The Jolly Roger</h3>
+
+                      <p>
+                        Man-of-war booty brigantine fire ship tack no prey, no
+                        pay wherry lee. Reef heave to line chandler fore cable
+                        smartly me. Avast list spanker Arr fathom American Main
+                        lookout grapple. Jolly boat black spot chandler list
+                        chantey pinnace brig Yellow Jack.
+                      </p>
+
+                      <p>
+                        Chantey Davy Jones' Locker snow jib careen galleon
+                        Admiral of the Black lass. Rum booty heave to grog
+                        hempen halter gangway long clothes wherry. Mutiny chase
+                        Sea Legs grapple crow's nest wherry jury mast lateen
+                        sail. Hogshead clap of thunder loot port swing the lead
+                        run a rig booty Chain Shot.
+                      </p>
+                    </article>
+                    <article class="some-document__document-item">
+                      <h3>The Sloop</h3>
+
+                      <p>
+                        Line Corsair haul wind pink provost hardtack keelhaul
+                        hang the jib. Splice the main brace matey hornswaggle
+                        strike colors run a shot across the bow cackle fruit
+                        hang the jib jack. Sheet bounty wherry nipperkin belay
+                        flogging Chain Shot main sheet. Lad Spanish Main barque
+                        port smartly Chain Shot deadlights Jack Ketch.
+                      </p>
+
+                      <p>
+                        Flogging heave down sloop me squiffy barkadeer loot
+                        chantey. Ye spike port lugsail belaying pin nipperkin
+                        loot yardarm. Prow gangplank six pounders chase guns
+                        pressgang chandler Shiver me timbers piracy. Hearties
+                        Shiver me timbers sloop driver fire in the hole gaff
+                        prow gally.
+                      </p>
+                    </article>
+                    <article class="some-document__document-item">
+                      <h3>Lost Treasure</h3>
+
+                      <p>
+                        Fore furl holystone mutiny lugsail hempen halter
+                        Brethren of the Coast Corsair. Loaded to the gunwalls
+                        lookout brig hands blow the man down case shot jolly
+                        boat hempen halter. Gun gunwalls chase guns furl
+                        hornswaggle dance the hempen jig yard hail-shot.
+                        Pressgang quarterdeck prow lugger spanker fluke
+                        broadside reef.
+                      </p>
+
+                      <p>
+                        Hempen halter me gangplank snow smartly boom fire ship
+                        aft. Rope's end draught interloper schooner ho wench
+                        jury mast lateen sail. Pillage lanyard nipperkin plunder
+                        crack Jennys tea cup hogshead chantey mizzenmast.
+                        Spanker blow the man down Buccaneer Sail ho rum tender
+                        warp brigantine.
+                      </p>
+                    </article>
+                    <article class="some-document__document-item">
+                      <h3>Sea Legs</h3>
+
+                      <p>
+                        Man-of-war booty brigantine fire ship tack no prey, no
+                        pay wherry lee. Reef heave to line chandler fore cable
+                        smartly me. Avast list spanker Arr fathom American Main
+                        lookout grapple. Jolly boat black spot chandler list
+                        chantey pinnace brig Yellow Jack.
+                      </p>
+
+                      <p>
+                        Chantey Davy Jones' Locker snow jib careen galleon
+                        Admiral of the Black lass. Rum booty heave to grog
+                        hempen halter gangway long clothes wherry. Mutiny chase
+                        Sea Legs grapple crow's nest wherry jury mast lateen
+                        sail. Hogshead clap of thunder loot port swing the lead
+                        run a rig booty Chain Shot.
+                      </p>
+                    </article>
+                    <article class="some-document__document-item">
+                      <h3>Barnacles and Crustaceans</h3>
+
+                      <p>
+                        Line Corsair haul wind pink provost hardtack keelhaul
+                        hang the jib. Splice the main brace matey hornswaggle
+                        strike colors run a shot across the bow cackle fruit
+                        hang the jib jack. Sheet bounty wherry nipperkin belay
+                        flogging Chain Shot main sheet. Lad Spanish Main barque
+                        port smartly Chain Shot deadlights Jack Ketch.
+                      </p>
+
+                      <p>
+                        Flogging heave down sloop me squiffy barkadeer loot
+                        chantey. Ye spike port lugsail belaying pin nipperkin
+                        loot yardarm. Prow gangplank six pounders chase guns
+                        pressgang chandler Shiver me timbers piracy. Hearties
+                        Shiver me timbers sloop driver fire in the hole gaff
+                        prow gally.
+                      </p>
+                    </article>
+                  </section>
+                </section>
+              </article>
+              <div class="line"></div>
+              <article class="main__article-5 article">
+                <h2>Unsplash API Demo</h2>
+                <section class="article__wrapper api-demo">
+                  <div class="api-demo__containe-api">
+                    <h3>
+                      <i class="fas fa-camera" style="color: orange"></i>
+                      <a href="/index.html">Pictures search</a>
+                    </h3>
+                    <div id="search_box">
+                      <input id="input" type="text" placeholder="Search..." /><i
+                        id="search"
+                        class="fas fa-search"
+                      ></i>
+                    </div>
+                  </div>
+                  <div id="grid"></div>
+                  <div id="prev-next">
+                    <div id="prev">
+                      <svg
+                        clsss="prev"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          d="M0 256c0 141.4 114.6 256 256 256s256-114.6 256-256c0-141.4-114.6-256-256-256S0 114.6 0 256zM246.1 129.2C252.1 131.7 256 137.5 256 144v64h96c17.67 0 32 14.33 32 32v32c0 17.67-14.33 32-32 32h-96v64c0 6.469-3.891 12.31-9.875 14.78c-5.984 2.484-12.86 1.109-17.44-3.469l-112-112c-6.248-6.248-6.248-16.38 0-22.62l112-112C233.3 128.1 240.1 126.7 246.1 129.2z"
+                        />
+                      </svg>
+                    </div>
+                    <div id="current-page"></div>
+                    <div id="next">
+                      <svg
+                        class="next"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          d="M512 256c0-141.4-114.6-256-256-256S0 114.6 0 256c0 141.4 114.6 256 256 256S512 397.4 512 256zM265.9 382.8C259.9 380.3 256 374.5 256 368v-64H160c-17.67 0-32-14.33-32-32v-32c0-17.67 14.33-32 32-32h96v-64c0-6.469 3.891-12.31 9.875-14.78c5.984-2.484 12.86-1.109 17.44 3.469l112 112c6.248 6.248 6.248 16.38 0 22.62l-112 112C278.7 383.9 271.9 385.3 265.9 382.8z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </section>
+              </article>
+              <div class="line"></div>
+              <article class="main__article-6 article">
+                <h2>Progress Bar</h2>
+                <section class="article__wrapper progress-bar">
+                  <div style="display: flex; align-items: center; gap: 10px">
+                    <div class="progress-bar__bar-progress">
+                      <div class="progress-bar__progress"></div>
+                    </div>
+                    <h3 style="font-size: 2rem" id="widthpr">0%</h3>
+                  </div>
+                  <div class="progress-bar__bar-btn button">Load</div>
+                </section>
+              </article>
+              <div class="line"></div>
+              <article class="main__article-7 article">
+                <h2>Register</h2>
+                <article class="article__wrapper sign-in">
+                  <h3>Sign-in</h3>
+                  <section class="sign-in__box">
+                    <label class="sign-in__label-email">Email: </label>
+                    <div style="position: relative; width: 70%; margin: 0 auto">
+                      <input
+                        id="email"
+                        maxlength="45"
+                        class="sign-in__input-email"
+                        type="email"
+                      />
+                      <svg
+                        class="sign-in__email"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"
+                        />
+                      </svg>
+                    </div>
+                    <label class="sign-in__label-password">Password: </label>
+                    <div style="position: relative; width: 70%; margin: 0 auto">
+                      <input
+                        id="password"
+                        maxlength="56"
+                        class="sign-in__input-password"
+                        type="password"
+                      />
+                      <svg
+                        class="sign-in__eye show button"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"
+                      >
+                        <path
+                          d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"
+                        />
+                      </svg>
+                      <svg
+                        class="sign-in__eye hide button"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 512"
+                      >
+                        <path
+                          d="M150.7 92.77C195 58.27 251.8 32 320 32C400.8 32 465.5 68.84 512.6 112.6C559.4 156 590.7 207.1 605.5 243.7C608.8 251.6 608.8 260.4 605.5 268.3C592.1 300.6 565.2 346.1 525.6 386.7L630.8 469.1C641.2 477.3 643.1 492.4 634.9 502.8C626.7 513.2 611.6 515.1 601.2 506.9L9.196 42.89C-1.236 34.71-3.065 19.63 5.112 9.196C13.29-1.236 28.37-3.065 38.81 5.112L150.7 92.77zM189.8 123.5L235.8 159.5C258.3 139.9 287.8 128 320 128C390.7 128 448 185.3 448 256C448 277.2 442.9 297.1 433.8 314.7L487.6 356.9C521.1 322.8 545.9 283.1 558.6 256C544.1 225.1 518.4 183.5 479.9 147.7C438.8 109.6 385.2 79.1 320 79.1C269.5 79.1 225.1 97.73 189.8 123.5L189.8 123.5zM394.9 284.2C398.2 275.4 400 265.9 400 255.1C400 211.8 364.2 175.1 320 175.1C319.3 175.1 318.7 176 317.1 176C319.3 181.1 320 186.5 320 191.1C320 202.2 317.6 211.8 313.4 220.3L394.9 284.2zM404.3 414.5L446.2 447.5C409.9 467.1 367.8 480 320 480C239.2 480 174.5 443.2 127.4 399.4C80.62 355.1 49.34 304 34.46 268.3C31.18 260.4 31.18 251.6 34.46 243.7C44 220.8 60.29 191.2 83.09 161.5L120.8 191.2C102.1 214.5 89.76 237.6 81.45 255.1C95.02 286 121.6 328.5 160.1 364.3C201.2 402.4 254.8 432 320 432C350.7 432 378.8 425.4 404.3 414.5H404.3zM192 255.1C192 253.1 192.1 250.3 192.3 247.5L248.4 291.7C258.9 312.8 278.5 328.6 302 333.1L358.2 378.2C346.1 381.1 333.3 384 319.1 384C249.3 384 191.1 326.7 191.1 255.1H192z"
+                        />
+                      </svg>
+                    </div>
+                    <button class="sign-in__submit button" type="submit">
+                      Sign-in
+                    </button>
+                  </section>
+                </article>
+              </article>
+              <div class="line"></div>
+              <article class="main__article-8 article">
+                <h2>Monsters!</h2>
+                <article class="article__wrapper monsters">
+                  <h3>
+                    Click on a door to find your monster friends. Avoid the
+                    sock!
+                  </h3>
+                  <div class="monsters__game-over-btn button">
+                    Game Over. <br />
+                    press to retry
+                  </div>
+                  <div class="monsters__game-won-btn button">
+                    Congratulation! You won.<br />
+                    press to win one more time
+                  </div>
+                  <section class="monsters__body">
+                    <div class="monsters__room button">
+                      <div class="monsters__door">
+                        <img src="/img/monsters/door.svg" />
+                      </div>
+                      <div class="monsters__elem">
+                        <img class="monsters__img-elem" />
+                      </div>
+                    </div>
+                    <div class="monsters__room button">
+                      <div class="monsters__door">
+                        <img src="/img/monsters/door.svg" />
+                      </div>
+                      <div class="monsters__elem">
+                        <img class="monsters__img-elem" />
+                      </div>
+                    </div>
+                    <div class="monsters__room button">
+                      <div class="monsters__door">
+                        <img src="/img/monsters/door.svg" />
+                      </div>
+                      <div class="monsters__elem">
+                        <img class="monsters__img-elem" />
+                      </div>
+                    </div>
+                    <div class="monsters__room button">
+                      <div class="monsters__door">
+                        <img src="/img/monsters/door.svg" />
+                      </div>
+                      <div class="monsters__elem">
+                        <img class="monsters__img-elem" />
+                      </div>
+                    </div>
+                    <div class="monsters__room button">
+                      <div class="monsters__door">
+                        <img src="/img/monsters/door.svg" />
+                      </div>
+                      <div class="monsters__elem">
+                        <img class="monsters__img-elem" />
+                      </div>
+                    </div>
+                    <div class="monsters__room button">
+                      <div class="monsters__door">
+                        <img src="/img/monsters/door.svg" />
+                      </div>
+                      <div class="monsters__elem">
+                        <img class="monsters__img-elem" />
+                      </div>
+                    </div>
+                    <div class="monsters__room button">
+                      <div class="monsters__door">
+                        <img src="/img/monsters/door.svg" />
+                      </div>
+                      <div class="monsters__elem">
+                        <img class="monsters__img-elem" />
+                      </div>
+                    </div>
+                    <div class="monsters__room button">
+                      <div class="monsters__door">
+                        <img src="/img/monsters/door.svg" />
+                      </div>
+                      <div class="monsters__elem">
+                        <img class="monsters__img-elem" />
+                      </div>
+                    </div>
+                  </section>
+                </article>
+              </article>
+              <div class="line"></div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__content">
+            <div class="footer__decor-items">
+              <div class="footer__decor-item">
+                <div class="footer__inner-decor"></div>
+              </div>
+              <div class="footer__decor-item">
+                <div class="footer__inner-decor"></div>
+              </div>
+              <div class="footer__decor-item">
+                <div class="footer__inner-decor"></div>
+              </div>
+            </div>
+            <h1 class="footer__title">Footer title_</h1>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
